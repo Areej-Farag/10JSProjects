@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url('OIP.jpg');
+    background-size: cover;
+    background-position: center center ;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleText{
+    margin-top: -10rem;
+    font-size: 4rem;
+    text-shadow: 0px 14px 8px #00000073;
+}
+.time_container{
+    padding-top: 5rem;
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+.time_container p{
+    font-size: 6rem;
+    text-align: center;
+}
