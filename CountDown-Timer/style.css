@@ -26,6 +26,7 @@ body{
     display: flex;
     width: 80%;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .time_container p{
     font-size: 6rem;
